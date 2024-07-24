@@ -1,0 +1,18 @@
+.elem1 h1:hover{
+    color: white;
+    cursor:default;
+}
+
+.elem2 h1:hover{
+    color: white;
+    cursor:default; 
+}
+
+.elem3 h1:hover{
+    color: white;
+    cursor:default; 
+}
+
+.Nav-container{
+    cursor: default;
+}
