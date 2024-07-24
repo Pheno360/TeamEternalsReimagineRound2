@@ -19,8 +19,8 @@ const Shoes = () => {
         })
     })
   return (
-    <div className='shoe-title lg:w-[180vw] w-[400vw] h-[100vh] bg-[rgb(16,16,17)] -mt-[27vh]'>
-      <div className='text-white p-[4vh] text-[5vh] font-[500]'>Classics Spotlight</div>
+    <div className='shoe-title lg:w-[180vw] md:w-[400vw] w-[475vw] h-[100vh] bg-[rgb(16,16,17)] -mt-[27vh]'>
+      <div className='text-white p-[4vh] md:text-[5vh] text-[3vh] font-[500]'>Classics Spotlight</div>
 
       <div className='flex justify-around shoe-container p-[1vh] '>
 

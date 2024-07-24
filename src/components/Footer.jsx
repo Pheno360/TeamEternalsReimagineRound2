@@ -47,7 +47,7 @@ const Footer = () => {
         <h1>Contact Us on All other Inquiries</h1>
     </div>
 
-    <div className='text-white flex flex-col gap-[1vh] md:mt-[10vh] -mt-[18vh] md:ml-0 -ml-[5vh]'>
+    <div className='text-white flex flex-col gap-[1vh] md:mt-[10vh] mt-0 md:ml-0 -ml-[15vh]'>
         <p className='mb-[1.5vw] font-[600] md:text-[1.2rem] text-[1.1rem] cursor-default'>Company</p>
         <h1>About Nike</h1>
         <h1>News</h1>
@@ -59,7 +59,7 @@ const Footer = () => {
     </div>
 
     <div className='  h-[7vh] text-white  bg-[#d11212]'>
-    <div className='h-full lg:w-[60vw] w-[100vw] lg:text-[1rem] md:text-[1.5vh] text-[1.3vh]   flex items-center justify-around '>
+    <div className='h-full lg:w-[60vw] w-[100vw] lg:text-[1rem] md:text-[1.5vh] text-[1.3vh]   flex flex-wrap items-center justify-around '>
     <h1 className=''>©2024 Nike,Inc. All rights reserved</h1>
     <h1>Guides</h1>
     <h1>Terms of Sale</h1>

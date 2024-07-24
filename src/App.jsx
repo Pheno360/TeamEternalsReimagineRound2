@@ -33,7 +33,7 @@ const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <>
-    <div className=' '>
+    <div className=' overflow-x-hidden '>
     <div className='nike absolute z-50 w-[100%] h-[100vh] overflow-hidden bg-black '>
     <Preloader />
     </div>

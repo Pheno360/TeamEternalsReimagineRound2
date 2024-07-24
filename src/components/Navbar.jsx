@@ -69,7 +69,7 @@ const Navbar = () => {
   return (
     <>
    
-    <div className='Nav-container relative px-[2vw] py-[1vw] flex w-[100vw] bg-black '>
+    <div className='Nav-container relative px-[2vw] py-[1vw] flex w-[100%] bg-black '>
 
     <div className='logo w-[12vh]'>
         <img src={NikeLogo} alt='' />

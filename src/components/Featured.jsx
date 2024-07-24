@@ -112,16 +112,20 @@ const Featured = () => {
 
 
   return (
-    <div data-scroll data-scroll-speed='-0.2'  className='featured-container w-[100vw] h-[110vh] lg:mt-[15vw] mt-[40vw] p-[1vw] bg-black'>
+    <div data-scroll data-scroll-speed='-0.2'  className='featured-container w-[100vw] h-[110vh] lg:mt-[15vw] md:mt-[40vw] -mt-[8vh] p-[1vw] bg-black'>
 
     <div className=' lg:block hidden featured-text rounded-sm w-auto h-[0vw] bg-black text-white text-[6vh] font-[500] overflow-hidden m-[1vw]' >
       <h1 className='title ml-[1.5vw]'>Featured</h1> 
       <h1 className='title ml-[1.5vw]'>Featured</h1>
     </div>
 
-    <div className='block lg:hidden featured-text2 rounded-sm w-auto h-[0vw] bg-black text-white text-[6vh] font-[500] overflow-hidden m-[1vw]' >
+    <div className='md:block lg:hidden hidden featured-text2 rounded-sm w-auto h-[0vw] bg-black text-white text-[6vh] font-[500] overflow-hidden m-[1vw]' >
       <h1 className='title3 ml-[1.5vw]'>Featured</h1> 
       <h1 className='title3 ml-[1.5vw]'>Featured</h1>
+    </div>
+
+    <div className='md:hidden lg:hidden block featured-text2 rounded-sm w-auto h-[2vw] bg-black text-white text-[4vh] font-[500] m-[1vw]' >
+      <h1 className=' ml-[1.5vw]'>Featured</h1> 
     </div>
    
 
@@ -129,7 +133,7 @@ const Featured = () => {
 
     <div 
     
-    className='image1    overflow-hidden'>
+    className='image1 overflow-hidden'>
     <img 
     onMouseEnter={handleMouseEnterAlphafly} 
     onMouseLeave={handleMouseLeaveAlphafly} 
@@ -158,7 +162,7 @@ const Featured = () => {
     </div>
 
 
-    <div className='text-white text-center lg:-mt-[0] -mt-[15vh] '>
+    <div className='text-white text-center lg:-mt-[0] md:-mt-[15vh] -mt-[40vh] '>
       <h1 className='text-[3vh]'>Built to Compete Against the Best on Every Track , Court and Pitch</h1>
       <button className='bg-white rounded-3xl text-black text-[2.5vh] p-[0.5vw] w-[15vh] mt-[3vh] '>Shop Air</button>
     </div>

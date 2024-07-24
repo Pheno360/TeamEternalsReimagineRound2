@@ -36,6 +36,7 @@ const Category = () => {
           start:"top 90%",
           end:"top 80%",
           scrub:2,
+          markers:true
         }
       })
 
@@ -109,7 +110,7 @@ const Category = () => {
   return (
     <>
 
-    <div data-scroll data-scroll-speed='0.5' className='category-container w-[100vw] lg:h-[110vh] h-[220vh] -mt-[30vh] p-[1vw] bg-red-700'>
+    <div data-scroll data-scroll-speed='0.5' className='category-container w-[100vw] lg:h-[110vh] h-[220vh] md:-mt-[30vh] -mt-[60vh] p-[1vw] bg-red-700'>
 
     <div className='category-text rounded-sm w-auto h-[0vw] bg-red-700 text-[5vh] font-[500]  m-[1vw]' >
       <h1 className='title2 ml-[1.5vw] mt-[3vh]'>Shop by Category</h1> 
@@ -117,7 +118,7 @@ const Category = () => {
 
     <div className='image-container flex lg:flex-row flex-col gap-[3rem] justify-center items-center overflow-hidden mt-[10vh]'>
 
-    <div className='' >
+    <div className='md:scale-100 scale-75' >
     <img
     onMouseEnter={handleMouseEnterApparel}
     onMouseLeave={handleMouseLeaveApparel}
@@ -132,7 +133,7 @@ const Category = () => {
       </span>))}</h1> 
     </div>
 
-    <div>
+    <div className='md:scale-100 scale-75'>
     <img 
      onMouseEnter={handleMouseEnterFootwear}
      onMouseLeave={handleMouseLeaveFootwear}
@@ -147,7 +148,7 @@ const Category = () => {
       </span>))}</h1>
     </div>
 
-    <div>
+    <div className='md:scale-100 scale-75'>
     <img 
      onMouseEnter={handleMouseEnterAccessories}
      onMouseLeave={handleMouseLeaveAccessories} 
@@ -156,7 +157,7 @@ const Category = () => {
         {item}
       </span>))}</h1>
 
-      <h1 className=' relative -mt-[16vh] ml-[16vh] text-white text-[5vh] font-[500] block lg:hidden'>{"ACCESORIES".split('').map((item)=>(<span className='inline-block accessories2'>
+      <h1 className=' relative -mt-[16vh] ml-[16vh] text-white text-[4vh] font-[500] block lg:hidden'>{"ACCESORIES".split('').map((item)=>(<span className='inline-block accessories2'>
         {item}
       </span>))}</h1>
     </div>
