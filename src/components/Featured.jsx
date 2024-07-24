@@ -39,8 +39,9 @@ const Featured = () => {
             scrollTrigger:{
               trigger:".title",
               start:"top 80%",
-              end:"top 40%",
+              end:"top 50%",
               scrub:5,
+              
             }
         })
 
@@ -63,21 +64,10 @@ const Featured = () => {
             trigger:".image-container",
             start:"top 25%",
             end: "top 10%",
-           
+          
           }
         })
 
-        gsap.from(".image2",{
-          y:-700,
-          scale:1,
-            duration:1.5,
-            scrollTrigger:{
-              trigger:".image-container",
-              start:"top 25%",
-              end: "top 10%",
-              
-            }
-          })
 
           tl2.from(".nike2",{
             y:100,
@@ -112,7 +102,7 @@ const Featured = () => {
 
 
   return (
-    <div data-scroll data-scroll-speed='-0.2'  className='featured-container w-[100vw] h-[110vh] lg:mt-[15vw] md:mt-[40vw] -mt-[8vh] p-[1vw] bg-black'>
+    <div data-scroll data-scroll-speed='-0.2'  className='featured-container w-[100vw] h-[110vh] lg:mt-[15vw] md:mt-[40vw] mt-[30vh] p-[1vw] bg-black'>
 
     <div className=' lg:block hidden featured-text rounded-sm w-auto h-[0vw] bg-black text-white text-[6vh] font-[500] overflow-hidden m-[1vw]' >
       <h1 className='title ml-[1.5vw]'>Featured</h1> 
@@ -153,7 +143,7 @@ const Featured = () => {
     </div>
 
     <div
-     className='image2  overflow-hidden'>
+     className='image1 overflow-hidden'>
     <img 
     onMouseEnter={handleMouseEnterPegasus}
     onMouseLeave={handleMouseLeavePegasus}

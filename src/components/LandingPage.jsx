@@ -18,7 +18,7 @@ const LandingPage = () => {
   return (
     <>
       <div data-scroll data-scroll-section 
-      className='absolute top-[28%]  lg:left-[25%] left-[10%] text-white font-[600] text-[5rem] font-["Roboto"] italic'>
+      className='absolute top-[28%]  lg:left-[25%] left-[10%] text-white font-[600] text-[5rem] font-["Roboto"] italic md:mt-0 -mt-[10vh]'>
       <h1 >
       NIKE 
       </h1>
@@ -33,9 +33,8 @@ const LandingPage = () => {
      
      </div>
       </div>
-      
-    
-      <div className=' absolute lg:z-0 -z-10 h-[80vh] lg:w-[98.5vw] sm:w-[200vw] md:w-[150vw] w-[310vw] mt-[4vh] lg:-ml-[0]  md:-ml-[50vw] sm:-ml-[100vw] -ml-[95vh] '>
+
+      <div className=' absolute lg:z-0 md:-z-10 z-50 h-[80vh] lg:w-[98.5vw] sm:w-[200vw] md:w-[150vw] w-[340vw] md:mt-[4vh] -mt-[6vh] lg:-ml-[0]  md:-ml-[50vw] sm:-ml-[100vw] -ml-[105vh] '>
       <Hero />
        </div>
 

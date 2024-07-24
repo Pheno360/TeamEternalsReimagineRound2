@@ -36,7 +36,6 @@ const Category = () => {
           start:"top 90%",
           end:"top 80%",
           scrub:2,
-          markers:true
         }
       })
 

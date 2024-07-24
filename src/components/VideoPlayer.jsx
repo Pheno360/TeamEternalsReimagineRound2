@@ -40,9 +40,9 @@ const VideoPlayer = () => {
 
   return (
     <>
-    <div data-scroll data-scroll-section data-scroll-speed="-.3" className="nike-video scroll-container md:flex hidden justify-center  w-full  overflow-hidden  lg:mt-[30vh] md:mt-[55vh] mt-[20vh] overflow-x-hidden ">
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className="nike-video scroll-container md:flex hidden justify-center  w-full  overflow-hidden  lg:mt-[30vh] md:mt-[55vh] -mt-[8vh] overflow-x-hidden ">
       <video 
-       className="w-full h-auto opacity-80 object-contain"
+       className="w-full h-auto opacity-80 object-contain "
       width="1600" 
       height="315"
       autoPlay
@@ -64,7 +64,7 @@ const VideoPlayer = () => {
 
 
 
-    <div data-scroll  className="nike-video scroll-container md:hidden  flex justify-center  w-full  overflow-hidden mt-[70vh]  overflow-x-hidden ">
+    <div data-scroll  className="nike-video scroll-container md:hidden  flex justify-center  w-full  overflow-hidden mt-[90vh]  overflow-x-hidden ">
       <video 
        className="w-full h-auto opacity-90 object-contain"
       width="1600" 
