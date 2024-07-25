@@ -34,7 +34,7 @@ const LandingPage = () => {
      </div>
       </div>
 
-      <div className=' absolute lg:z-0 md:-z-10 z-50 h-[80vh] lg:w-[98.5vw] sm:w-[200vw] md:w-[150vw] w-[340vw] md:mt-[4vh] -mt-[6vh] lg:-ml-[0]  md:-ml-[50vw] sm:-ml-[100vw] -ml-[105vh] '>
+      <div className='md:block hidden absolute lg:z-0 md:-z-10 z-50 h-[80vh] lg:w-[98.5vw] sm:w-[200vw] md:w-[150vw] w-[340vw] md:mt-[4vh] -mt-[6vh] lg:-ml-[0]  md:-ml-[50vw] sm:-ml-[100vw] -ml-[105vh] '>
       <Hero />
        </div>
 
