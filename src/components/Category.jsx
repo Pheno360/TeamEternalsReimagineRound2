@@ -33,10 +33,10 @@ const Category = () => {
         opacity:0,
         scrollTrigger:{
           trigger:".apparel2",
-          start:"top 100%",
-          end:"top 90%",
+          start:"top 110%",
+          end:"top 100%",
           scrub:2,
-          markers:true
+          
         }
       })
 
@@ -46,8 +46,8 @@ const Category = () => {
         opacity:0,
         scrollTrigger:{
           trigger:".footwear2",
-          start:"top 90%",
-          end:"top 80%",
+          start:"top 110%",
+          end:"top 100%",
           scrub:2,
           
         }
@@ -59,8 +59,8 @@ const Category = () => {
         opacity:0,
         scrollTrigger:{
           trigger:".accessories2",
-          start:"top 90%",
-          end:"top 80%",
+          start:"top 110%",
+          end:"top 100%",
           scrub:2,
         }
       })
