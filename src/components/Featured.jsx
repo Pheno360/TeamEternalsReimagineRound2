@@ -102,7 +102,7 @@ const Featured = () => {
 
 
   return (
-    <div data-scroll data-scroll-speed='-0.2'  className='featured-container w-[100vw] h-[110vh] lg:mt-[15vw] md:mt-[40vw] mt-[30vh] p-[1vw] bg-black'>
+    <div data-scroll data-scroll-speed='-0.2'  className='featured-container w-[100vw] h-[110vh] lg:mt-[15vw] md:mt-[40vw] mt-[20vh] p-[1vw] bg-black'>
 
     <div className=' lg:block hidden featured-text rounded-sm w-auto h-[0vw] bg-black text-white text-[6vh] font-[500] overflow-hidden m-[1vw]' >
       <h1 className='title ml-[1.5vw]'>Featured</h1> 

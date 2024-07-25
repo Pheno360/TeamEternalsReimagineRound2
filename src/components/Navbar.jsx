@@ -8,6 +8,7 @@ const Navbar = () => {
   const tl1=gsap.timeline()
   const tl2=gsap.timeline()
   const tl3=gsap.timeline()
+  const tl4=gsap.timeline()
 
   useGSAP(()=>{
 
@@ -31,13 +32,20 @@ const Navbar = () => {
       display:"flex"
       
     })
+    tl4.to(".nike-menu",{
+      transform:"translateX(0%)"
+    })
+
   
     tl1.pause()
     tl2.pause()
     tl3.pause()
+    tl4.pause()
 
    
   })
+
+ 
 
   const HandleMouseEnter=()=>{
     tl1.play()
@@ -65,6 +73,14 @@ const Navbar = () => {
     tl3.reverse()
   }
 
+  const HandleClickMenu=()=>{
+    tl4.play()
+  }
+
+  const HandleClickExit=()=>{
+    tl4.reverse()
+  }
+
  
   return (
     <>
@@ -74,6 +90,38 @@ const Navbar = () => {
     <div className='logo w-[12vh]'>
         <img src={NikeLogo} alt='' />
       </div>
+
+      <div className='nike-menu lg:hidden block absolute text-white z-50 h-[100vh] w-[90vw] translate-x-[100%] bg-black ml-[7vh]'>
+      <div className='flex flex-col gap-[1vh] ml-[5vh] mt-[10vh]  text-[3vh]'>
+      
+      <div 
+      onClick={HandleClickExit}
+      className='exit ml-[26vh] -mt-[5vh]'>
+      <svg xmlns="http://www.w3.org/2000/svg" 
+      fill="none" viewBox="0 0 24 24" 
+      strokeWidth={1.5} stroke="currentColor" 
+      className="size-10">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+</svg>
+</div>
+        <h1 className='mt-[5vh] hover:text-red-500'>New & Featured</h1>
+        <h1 className=' hover:text-red-500'>Men</h1>
+        <h1 className=' hover:text-red-500'>Women</h1>
+        <h1 className=' hover:text-red-500'>Kids</h1>
+        <h1 className=' hover:text-red-500'>Sale</h1>
+        <h1 className=' hover:text-red-500'>Customise</h1>
+        <h1 className=' hover:text-red-500'>SNKRS</h1>
+        </div>
+      </div>
+
+        <div 
+        onClick={HandleClickMenu}
+        className='lg:hidden block text-white ml-[24vh]  mt-[0.5vh]'>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
+      className="size-10">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+</div>
       
       <div  className=' mt-[1vh] lg:flex hidden gap-[2rem] items-center justify-center w-[75vw] font-[500] text-[#ffffffa4] tracking-wid text-[1vw] '>
 
