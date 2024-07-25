@@ -62,9 +62,8 @@ const Featured = () => {
           duration:1.5,
           scrollTrigger:{
             trigger:".image-container",
-            start:"top 25%",
-            end: "top 10%",
-          
+            start:"top 35%",
+            end: "top 20%",
           }
         })
 
