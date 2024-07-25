@@ -47,7 +47,6 @@ const VideoPlayer = () => {
       height="315"
       autoPlay
       muted
-      preload='auto'
       loop
       playsInline
       >
@@ -78,10 +77,10 @@ const VideoPlayer = () => {
         <source src={videoFile} type="video/mp4" />
       </video>
 
-      <div className='video-text absolute text-white mt-[15vh] mr-[20vh] overflow-hidden'>
-      <h1 className='font-["Roboto"] font-[600] text-[5vw] ml-[24vw] overflow-hidden '>WIN ON AIR</h1>
-      <h1 className=' text-[2vw] ml-[8vh]'>Meet the next generation of Nike Air. </h1>
-      <button className='ml-[34vw] mt-[2vh] text-[2vw] border border-white p-[0.5vw] rounded-3xl w-[10vw] hover:bg-white hover:text-black font-[500] transition-[1sec] '>Shop Air</button>
+      <div className='video-text absolute text-white mt-[15vh] mr-[20vh] overflow-hidden w-[100vw]'>
+      <h1 className='font-["Roboto"] font-[600] text-[6vw] ml-[50vw] overflow-hidden '>WIN ON AIR</h1>
+      <h1 className=' text-[2.5vw] ml-[21vh]'>Meet the next generation of Nike Air. </h1>
+      <button className='ml-[26vh] mt-[2vh] text-[3vw] border border-white p-[1vw] rounded-3xl w-[20vw] hover:bg-white hover:text-black font-[500] transition-[1sec] '>Shop Air</button>
       </div>
     </div>
     </>

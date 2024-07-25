@@ -116,7 +116,7 @@ const Navbar = () => {
 
         <div 
         onClick={HandleClickMenu}
-        className='lg:hidden block text-white ml-[24vh]  mt-[0.5vh]'>
+        className='dots lg:hidden block text-white ml-[26vh]  mt-[0.5vh]'>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
       className="size-10">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
